@@ -6,7 +6,7 @@ sitemap: false
 permalink: /cv/
 ---
 
-<embed src="{{ site.url }}{{ site.baseurl }}/assets/PhongLam_CV.pdf" width="300px" height="500px" />
+<embed src="{{ site.url }}{{ site.baseurl }}/assets/PhongLam_CV.pdf" width="500px" height="600px" />
 
 <div class="row">
 
