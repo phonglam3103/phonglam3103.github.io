@@ -41,7 +41,7 @@ def update_markdown_file(citations, h_index):
     updated_content = updated_content.replace('<!-- REPLACE_THIS_WITH_H_INDEX -->', h_index)
 
     # Write the updated content back to the Markdown file
-    with open('_pages/publications.md', 'w') as file:
+    with open('_pages/test.txt', 'w') as file:
         file.write(updated_content)
 
 if __name__ == "__main__":
