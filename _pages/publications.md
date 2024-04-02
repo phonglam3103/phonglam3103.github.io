@@ -8,8 +8,8 @@ permalink: /publications/
 ---
 <!-- _pages/publications.md -->
 
-<!-- REPLACE_THIS_WITH_CITATIONS -->
-<!-- REPLACE_THIS_WITH_H_INDEX -->
+Citations: <!-- REPLACE_THIS_WITH_CITATIONS -->
+h-index: <!-- REPLACE_THIS_WITH_H_INDEX -->
 # Publications
 
  
