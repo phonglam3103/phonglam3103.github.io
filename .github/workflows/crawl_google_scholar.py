@@ -33,7 +33,7 @@ def crawl_google_scholar():
 
 def update_markdown_file(citations, h_index):
     # Read the Markdown file
-    with open('_pages/publications.md', 'r') as file:
+    with open('../../_pages/publications.md', 'r') as file:
         content = file.read()
 
     # Update citation count and h-index in the Markdown content
@@ -41,7 +41,7 @@ def update_markdown_file(citations, h_index):
     updated_content = updated_content.replace('<!-- REPLACE_THIS_WITH_H_INDEX -->', h_index)
 
     # Write the updated content back to the Markdown file
-    with open('_pages/publications.md', 'w') as file:
+    with open('../../_pages/publications.md', 'w') as file:
         file.write(updated_content)
 
 if __name__ == "__main__":
