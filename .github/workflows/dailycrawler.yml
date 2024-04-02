@@ -26,4 +26,4 @@ jobs:
           # Add any other dependencies you may need
 
       - name: Run citation crawler
-        run: python crawl_google_scholar.py
+        run: python .github/workflows/crawl_google_scholar.py
