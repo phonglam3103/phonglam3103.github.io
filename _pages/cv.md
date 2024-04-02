@@ -1,21 +1,12 @@
 ---
-title: "Secure Learning and Control Lab - Funding"
-layout: textlay
-excerpt: "Secure Learning and Control Lab -- Funding."
+title: "Phong Lam - CV"
+layout: cv
+excerpt: "Phong Lam - CV"
 sitemap: false
-permalink: /funding/
+permalink: /cv/
 ---
 
-# Our Funding
-We are grateful to the following organizations that generously fund our activities:
-- [Uppsala University](http://www.it.uu.se),
-	- [UU Graduate School in Cybersecurity](http://www.it.uu.se/research/research-arenas/security/graduate_school), an initiative from the Department of Information Technology,
-- [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/) ([Wallenberg Academy Fellow](https://kaw.wallenberg.org/en/andre-teixeira)), 
-- [Swedish Research Council](https://www.vr.se), 
-- [Swedish Foundation for Strategic Research](https://strategiska.se) ([Future Research Leaders 7](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/)),
-- [Swedish Energy Agency](https://www.energimyndigheten.se/en/),
-- [Sweden's Innovation Agency](https://www.vinnova.se/en/),
-- [eSSENCE-SciLife Graduate School in Data-Intensive Science](https://essenceofescience.se/graduate-school/).
+<embed src="{{ site.url }}{{ site.baseurl }}/assets/PhongLam_CV.pdf" width="800px" height="2100px" />
 
 <div class="row">
 
