@@ -1,4 +1,9 @@
-- title: "Introduction to Scientific Research and Reference research strategies"
+- title: "Introduction to Scientific Research and Reference Search Strategies"
   event: "UMP's Pharmacy Academic Club internal training"
   summary: "The speech summarizes the main terminologies used in scientific research and how to look for references effectively. Insights from a Vietnamese pharmacist. This speech was unfortunately written in Vietnamese. I will try to translate it to English in the near future"
-  presentation: Introduction_Sci_res.pptx
+  presentation: Introduction_Sci_res.pdf
+
+- title: "In-silico virtual screening and preliminary in-vitro evaluation of potential Interleukin-33 inhibitors"
+  event: "VinUni-Illinois Smart Health Center Workshop"
+  summary: "This is a part of my undergraduate's thesis in which I applied molecular docking, molecular dynamics simulation, and binding free energy calculation as an effort to search potential interleukin-33 inhibitors. Additionally, I also developed a preliminary in-vitro method employing fluorescent quenching mechanism to evaluate the binding properties of most potential compounds."
+  presentation: IL-33_thesis.pdf
