@@ -5,7 +5,8 @@ excerpt: "Phong Lam - CV"
 sitemap: false
 permalink: /cv/
 ---
-<div class="well">
-<embed src="{{ site.url }}{{ site.baseurl }}/assets/PhongLam_CV.pdf" width="550px" height="500px" />
-</div>
+<div>
+  <iframe style="width:100%; height:500px;overflow:auto;" src="{{ site.url }}{{ site.baseurl }}/assets/PhongLam_CV.pdf">>
 
+  </iframe>
+</div>
