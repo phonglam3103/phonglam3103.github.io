@@ -3,9 +3,6 @@ name: Daily Citation Crawler
 on:
   schedule:
     - cron: '0 0 * * *' # Runs the workflow daily at midnight UTC
-  push:
-    branches:
-      - main
 
 jobs:
   crawl_citations:
