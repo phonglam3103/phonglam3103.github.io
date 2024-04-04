@@ -3,7 +3,7 @@ title: "Phong Lam - Useful scripts"
 layout: gridlay2
 excerpt: "Phong Lam - Useful scripts"
 sitemap: false
-permalink: /teaching/
+permalink: /scripts/
 ---
 
 # Scripts
