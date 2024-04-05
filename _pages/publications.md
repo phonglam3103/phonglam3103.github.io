@@ -92,6 +92,6 @@ permalink: /publications/
 ## Conference presentation
 <div class="publications">
 {%- for y in page.years %}  
-  {% bibliography -f publications "@*[conference={1} and year={{ y }}]*" %}
+  {% bibliography -f publications -q @*[conference={1} and year={{y}}]* %}
 {% endfor %}
 </div> 
