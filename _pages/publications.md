@@ -68,16 +68,16 @@ permalink: /publications/
 <p> &nbsp; </p>-->
 
 
-### List of Publications
+## Journal articles
 
-#### Under Revision
+### Under Revision
 <div class="publications">
   
 {% bibliography -f publications -q @*[published={{0}}]* %}
 
 </div> 
 
-#### Published 
+### Published 
 <div class="publications">
 
 {%- for y in page.years %}
@@ -89,7 +89,7 @@ permalink: /publications/
 <br /> 
 
 
-### Conference presentation
+## Conference presentation
 <div class="publications">
 {% bibliography -f publications -q @*[conference={{1}}]* %}
 
