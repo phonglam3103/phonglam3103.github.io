@@ -8,15 +8,10 @@ permalink: /publications/
 ---
 <!-- _pages/publications.md -->
 
-Citations: <!-- REPLACE_THIS_WITH_CITATIONS -->
-h-index: <!-- REPLACE_THIS_WITH_H_INDEX -->
 # Publications
-
- 
 
 
 <!--## Highlights
-
 
 
 {% assign number_printed = 0 %}
@@ -91,3 +86,10 @@ h-index: <!-- REPLACE_THIS_WITH_H_INDEX -->
 {% endfor %}
 
 </div>
+
+## Conference presentation
+<div class="publications">
+  
+{% bibliography -f publications -q @*[conference={{1}}]* %}
+
+</div> 
