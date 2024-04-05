@@ -7,9 +7,9 @@ permalink: /
 ---
 
 ### About me
-Phong Lam is a pharmacist interested in computer-aided drug design using in-silico approaches including molecular docking, and molecular dynamics simulations. Additionally, he is also interested in the use of machine learning and deep learning techniques, together with conventional techniques to further advance the drug discovery process. In his undergraduate study, he was involved in several drug discovery projects, which have been transformed into publications.
+I am a Master's student in Pharmaceutical Modeling at [Uppsala University, Sweden](https://uu.se) (ranked 28 in Pharmacy & Pharmacology according to QS Ranking 2024). My research interests involve the use of computational methods (molecular docking, dynamics simulation, and machine learning) to advance the drug discovery process. In Fall 2024, I will be doing my thesis project related to G-protein coupled receptors (GPCR) under the supervision of Professor Jens Carlsson ([https://www.carlssonlab.org/](https://www.carlssonlab.org/)) at the Department of Cell and Molecular Biology, Uppsala University.
 
-Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsala University, Sweden, where he is expected to graduate in June 2025. He will be conducting his thesis project related to G-protein coupled receptors (GPCR) under the supervision of Professor Jens Carlsson ([https://www.carlssonlab.org/](https://www.carlssonlab.org/)) at the Department of Cell and Molecular Biology, Uppsala University.
+I obtained my pharmacist degree in 2022 from [University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam] (https://ump.edu.vn), achieving a rank of 2/368 at the end of the program. During my undergraduate program, I conducted my thesis under the supervision of [Prof. Khac-Minh Thai](https://scholar.google.com/citations?hl=en&user=UnKYFLoAAAAJ) and [Dr. Tan Thanh Mai](scholar.google.com/citations?user=E1atHc8AAAAJ&hl=en), in which I employed different molecular modeling methods (docking, molecular dynamics simulation, and binding free energy estimation) to find potential inhibitors for the protein-protein interaction of IL-33/ST2. Additionally, I also adapted and employed an in-vitro method to evaluate the binding properties of most putative hits using the fluorescent quenching principles. The findings from the thesis could pave the way for further development toward IL-33 inhibition using small molecules. After graduation, I continued to work as a graduate research assistant and have involved in several CADD projects. For more information, see my [Publications] ({{ site.url }}{{ site.baseurl }}/publications).
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -44,7 +44,7 @@ Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsal
 
 ### Research
 
-My research orientation involves the use of computational methods and predictive models to streamline the drug discovery process. The following topics are of my interest but not limited to:
+My research interest involves the use of computational methods and predictive models to streamline the drug discovery process. The following topics are of interest but are not limited to:
 - Chemoinformatics (QSAR and 3D-QSAR)
 - Virtual screening (3D-pharmacophore and molecular docking)
 - Dynamics simulation and binding free energy calculations
