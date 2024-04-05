@@ -6,10 +6,16 @@ sitemap: false
 permalink: /
 ---
 
-### About me
-I am a Master's student in Pharmaceutical Modeling at [Uppsala University, Sweden](https://uu.se) (ranked 28 in Pharmacy & Pharmacology according to QS Ranking 2024). My research interests involve the use of computational methods (molecular docking, dynamics simulation, and machine learning) to advance the drug discovery process. In Fall 2024, I will be doing my thesis project related to G-protein coupled receptors (GPCR) under the supervision of Professor Jens Carlsson ([https://www.carlssonlab.org/](https://www.carlssonlab.org/)) at the Department of Cell and Molecular Biology, Uppsala University.
+### About Me
 
-I obtained my pharmacist degree in 2022 from [University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam] (https://ump.edu.vn), achieving a rank of 2/368 at the end of the program. During my undergraduate program, I conducted my thesis under the supervision of [Prof. Khac-Minh Thai](https://scholar.google.com/citations?hl=en&user=UnKYFLoAAAAJ) and [Dr. Tan Thanh Mai](scholar.google.com/citations?user=E1atHc8AAAAJ&hl=en), in which I employed different molecular modeling methods (docking, molecular dynamics simulation, and binding free energy estimation) to find potential inhibitors for the protein-protein interaction of IL-33/ST2. Additionally, I also adapted and employed an in-vitro method to evaluate the binding properties of most putative hits using the fluorescent quenching principles. The findings from the thesis could pave the way for further development toward IL-33 inhibition using small molecules. After graduation, I continued to work as a graduate research assistant and have involved in several CADD projects. For more information, see my [Publications] ({{ site.url }}{{ site.baseurl }}/publications).
+I am currently pursuing a Master's degree in Pharmaceutical Modeling at [Uppsala University, Sweden](https://uu.se), which is ranked 28th in Pharmacy & Pharmacology according to the QS Ranking 2024. My academic journey is fueled by a passion for leveraging computational methods to drive advancements in drug discovery.
+
+In the fall of 2024, I am eagerly anticipating embarking on my thesis project, focusing on G-protein coupled receptors (GPCRs), under the supervision of Professor Jens Carlsson at the Department of Cell and Molecular Biology, Uppsala University. You can learn more about the ongoing research in our group at [https://www.carlssonlab.org/](https://www.carlssonlab.org/).
+
+Prior to my current pursuits, I earned my Pharmacist degree in 2022 from the [University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam](https://ump.edu.vn), where I graduated with distinction, ranking second out of a cohort of 368 students. During my undergraduate studies, I have conducted my thesis project under the supervision of Prof. Khac-Minh Thai and Dr. Tan Thanh Mai. My thesis project focused on employing advanced molecular modeling techniques, including molecular docking, molecular dynamics simulation, and binding free energy estimation, to identify potential inhibitors for the protein-protein interaction of IL-33/ST2. Additionally, I spearheaded in-vitro evaluations of the binding properties of promising compounds using fluorescent quenching principles. These findings hold significant promise for advancing IL-33 inhibition using small molecules and underscore my commitment to translating computational insights into tangible therapeutic solutions.
+
+Following graduation, I transitioned seamlessly into a role as a graduate research assistant, contributing my expertise to a range of computer-aided drug design (CADD) projects. For a comprehensive overview of my academic contributions, please refer to my [Publications](INSERT_PUBLICATIONS_LINK_HERE).
+
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
