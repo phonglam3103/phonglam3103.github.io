@@ -1,0 +1,11 @@
+
+<div class="well">
+<h4>Posts</h4>
+
+{% for article in site.data.posts limit:5 %}
+<p>{{ article.date }}<br>{{ article.headline | markdownify}}<br></p>
+{% endfor %}
+
+<h4><a href="{{ site.url }}{{ site.baseurl }}/blogs.html">... see all blogs</a></h4>
+
+    </div>
