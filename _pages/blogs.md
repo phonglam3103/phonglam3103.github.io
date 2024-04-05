@@ -1,6 +1,6 @@
 ---
 title: "Phong Lam - Blogs"
-layout: textlay
+layout: post
 excerpt: "blogs"
 sitemap: false
 permalink: /blogs
