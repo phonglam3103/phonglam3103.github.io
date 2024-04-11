@@ -8,7 +8,18 @@ permalink: /scripts/
 
 # Scripts
 
-These are useful scripts I usually  used in my research. Will try to update the list regularly.
+These are useful scripts I usually use in my research. Will try to update the list regularly.
+
+<div class="row">
+<div class="well"> 
+  
+#### Chemical standardization, visualization, and IUPAC readout
+  
+  **Purpose:** The script is used to standardize the structure into proper ones using the SMILES, then add a column of chemical representation in 2D format and IUPAD readout using a deep learning model. The script was gathered from different sources.
+  
+  **Script:** <a href="https://colab.research.google.com/github/phonglam3103/Cheminformatics/blob/main/Multiple_ROC_AUC_generalized.ipynb"> Google Colab</a>
+</div>
+</div>
 
 <div class="row">
 <div class="well"> 
