@@ -27,7 +27,7 @@ The video illustrates how a drug molecule (montelukast) may interact with a prot
 
 {% include youtubePlayer.html id="b0c43LOoPMw" %}
 
-## Chemoinformatics and applications of machine learning in drug discovery
+<!--## Chemoinformatics and applications of machine learning in drug discovery
 
 
 
@@ -100,6 +100,6 @@ The video illustrates how a drug molecule (montelukast) may interact with a prot
 <p> &nbsp; </p>
 
 
-[//]: # (**Watermarking schemes for attack detection:**)
+[//]: # (**Watermarking schemes for attack detection:**)-->
 
 ### ... and more.
