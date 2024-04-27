@@ -18,9 +18,9 @@ My vision is to develop and apply computational methodologies aimed at understan
 Over the past two decades, significant strides have been made in computational resources and AI, revolutionizing various fields, including drug discovery. Among the methodologies employed, structure-based drug design (SBDD), centered around molecular docking, remains a cornerstone. Despite the advancements, fundamental concepts in computer-aided drug design (CADD) continue to be relevant today.
 
 Recent years have witnessed a surge in leveraging artificial intelligence (AI), particularly machine learning and deep learning, to augment the accuracy and predictive power of molecular docking. AI methodologies have been instrumental in refining docking scoring functions and improving the enrichment rates of docking models.
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="80%" class="center"/>
-
+<div class="text-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/posts/Monkeypox.tif" width="80%" class="center"/>
+</div>
 
 ## Molecular dynamics simulation
 The video illustrates how a drug molecule (montelukast) may interact with a protein (interleukin-33) in a physiological condition. This is one of the repurposed hits that has shown promising results in-vitro.
