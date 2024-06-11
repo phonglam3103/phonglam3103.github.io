@@ -8,7 +8,7 @@ permalink: /
 
 ### About Me
 
-I am currently pursuing a Master's degree in Pharmaceutical Modeling at [Uppsala University, Sweden](https://uu.se), which is ranked 28th in Pharmacy & Pharmacology according to the QS Ranking 2024. My academic journey is fueled by a passion for leveraging computational methods to drive advancements in drug discovery.
+I am currently pursuing a Master's degree in Pharmaceutical Modeling at [Uppsala University, Sweden](https://uu.se), which is ranked 26th in Pharmacy & Pharmacology according to the QS Ranking 2025. My academic journey is fueled by a passion for leveraging computational methods to drive advancements in drug discovery.
 
 In the fall of 2024, I am eagerly anticipating embarking on my thesis project, focusing on G-protein coupled receptors (GPCRs), under the supervision of Professor Jens Carlsson at the Department of Cell and Molecular Biology, Uppsala University. You can learn more about the ongoing research in our group at [https://www.carlssonlab.org/](https://www.carlssonlab.org/).
 
