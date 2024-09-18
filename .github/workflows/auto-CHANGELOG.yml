@@ -1,3 +1,10 @@
+name: Generate Changelog
+
+on:
+  push:    # This triggers the workflow on every push to the repository
+    branches:
+      - '**'  # This will trigger the workflow on every branch push
+
 jobs:
   changelog:
     name: Generate changelog
