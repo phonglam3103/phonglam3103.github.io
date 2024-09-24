@@ -4,68 +4,65 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
-### #1653
-
-- Add GitLab social icon brand color (#1654) - ([37e5fd1](https://github.com/phonglam3103/phonglam3103.github.io/commit/37e5fd11d4ff3282af4d51293e153b83c94aa1ff))
-
-### #1656
-
-- Update example Reddit social share interpolation syntax (#1657) - ([c6d7264](https://github.com/phonglam3103/phonglam3103.github.io/commit/c6d726408eedd72da0c0d9adda18d370b878db08))
-
-### #1659
-
-- Prevent line breaking between icon & text in footer social links (#1660) - ([8f900dd](https://github.com/phonglam3103/phonglam3103.github.io/commit/8f900dd3f2b93472d1e1f4beba9413dad118d352))
-
 ### 🚀 Features
 
-- Search icon in masthead is a Font Awesome icon. (#2774) - ([351174e](https://github.com/phonglam3103/phonglam3103.github.io/commit/351174e4940e88d835cc3cc774786a68d9460500))
-- Sort comments by date ascending (#3184) - ([dbc9479](https://github.com/phonglam3103/phonglam3103.github.io/commit/dbc9479fd5c262538d99d50fd3a648ee317d4a2a))
+- Feat: Search icon in masthead is a Font Awesome icon. (#2774)
+
+* feat: Allow search icon in masthead to be set to a Font Awesome icon.
+
+* fix indentations
+
+* Users wishing to avoid FontAwesome should override _includes/masthead.html - ([351174e](https://github.com/phonglam3103/phonglam3103.github.io/commit/351174e4940e88d835cc3cc774786a68d9460500))
+- Feat: Sort comments by date ascending (#3184)
+
+ - ([dbc9479](https://github.com/phonglam3103/phonglam3103.github.io/commit/dbc9479fd5c262538d99d50fd3a648ee317d4a2a))
 
 ### 🐛 Bug Fixes
 
-- *(includes/video)* Use https always (#945) - ([706531b](https://github.com/phonglam3103/phonglam3103.github.io/commit/706531b60da31c53f852e9c104b55a45fb4bd4ab))
-- Do not redirect user away from site after they submit a comment (#2402) - ([e8b36c9](https://github.com/phonglam3103/phonglam3103.github.io/commit/e8b36c94d3e7cb4295242ca054a6a0c2b132c708))
-- Change heading tag of related posts section from `h4` to `h2` for SEO enhancement (#3064) - ([14a47c9](https://github.com/phonglam3103/phonglam3103.github.io/commit/14a47c9d39bb37f5f40f78dbe5b36280fa65aec8))
+- Fix google plus integration in bio, now accepts username
+ - ([8b65bf0](https://github.com/phonglam3103/phonglam3103.github.io/commit/8b65bf0fac8af4bb4336f0ec053de87edcfe2495))
+- Fixed link colors
+
+Fix allows users to change linkcolorhover, linkcolorfocus and linkcolorvisited from the variables.less file. In the original source code, the link color settings in typography.less did not match link colors settings in variables.less. This caused the link settings in the typography file to override the link settings in variables.less file. - ([161f5ac](https://github.com/phonglam3103/phonglam3103.github.io/commit/161f5ac7b95fb878427dd80f9fed2ef17689c7d0))
+- Fix typo - ([8e55544](https://github.com/phonglam3103/phonglam3103.github.io/commit/8e55544e3eb2e75052bba98e8a97a4627bd12283))
+- Fix(includes/video): use https always (#945)
+
+closes #944 - ([706531b](https://github.com/phonglam3103/phonglam3103.github.io/commit/706531b60da31c53f852e9c104b55a45fb4bd4ab))
+- Fix button classs (#1368)
+
+ - ([75b2d51](https://github.com/phonglam3103/phonglam3103.github.io/commit/75b2d514c20323db4d3a82232de8fb66b5c8bdd3))
+- Fix a typo in 04-upgrading.md (#1487)
+
+ - ([61bad6d](https://github.com/phonglam3103/phonglam3103.github.io/commit/61bad6d0aa7622a6589533028d9082e4600e9369))
+- Fix broken recipe collection and make pets work (#1664)
+
+ - ([0101aac](https://github.com/phonglam3103/phonglam3103.github.io/commit/0101aac2ca77c9b136f40bcf006329a5c2c4e9ee))
+- Fix typo in seo template (#1687)
+
+naver-site-verification to naver_site_verification - ([70bff53](https://github.com/phonglam3103/phonglam3103.github.io/commit/70bff53a41d34cc685be7d8b1d18db4bbf7eefc2))
+- Fix: Do not redirect user away from site after they submit a comment (#2402)
+
+ - ([e8b36c9](https://github.com/phonglam3103/phonglam3103.github.io/commit/e8b36c94d3e7cb4295242ca054a6a0c2b132c708))
+- Fixed typo in  page_hero (#2428)
+
+ - ([7b953b6](https://github.com/phonglam3103/phonglam3103.github.io/commit/7b953b6b013050cf621536df0651d6888a6c90c5))
+- Fix: change heading tag of related posts section from `h4` to `h2` for SEO enhancement (#3064)
+
+* Update heading tag from `h4` to `h2`
+
+* Update heading tag from `h4` to `h2` - ([14a47c9](https://github.com/phonglam3103/phonglam3103.github.io/commit/14a47c9d39bb37f5f40f78dbe5b36280fa65aec8))
+- Fixed links
+ - ([cca7b2c](https://github.com/phonglam3103/phonglam3103.github.io/commit/cca7b2c0322c375eb1f3db0a30ca3c3e9ed408b9))
 
 ### 📚 Documentation
 
-- Add dracula base16 syntax highlighting (#2438) - ([e00e24d](https://github.com/phonglam3103/phonglam3103.github.io/commit/e00e24dc9d79f3ac9b04f8074de6e49e0aada79e))
+- Docs: Add dracula base16 syntax highlighting (#2438)
 
-### Accessibility
+Updates stylesheets doc by adding a section for [dracula theme](https://draculatheme.com/). - ([e00e24d](https://github.com/phonglam3103/phonglam3103.github.io/commit/e00e24dc9d79f3ac9b04f8074de6e49e0aada79e))
 
-- Add aria-label to the search button (#2014) - ([a81ed70](https://github.com/phonglam3103/phonglam3103.github.io/commit/a81ed706da33f4f35d5e28c617b352ac85e61324))
+### ◀️ Revert
 
-### Feature
-
-- Config refactor - ([66b54d4](https://github.com/phonglam3103/phonglam3103.github.io/commit/66b54d4cc9d9d2ee9186d23b70983b6403628497))
-- Refactor layouts and includes - ([8c03327](https://github.com/phonglam3103/phonglam3103.github.io/commit/8c033276477435221aa6537023d6c9a680e00c1e))
-- Improve demo posts, pages, and collections - ([6f2d1e2](https://github.com/phonglam3103/phonglam3103.github.io/commit/6f2d1e2b962ca80e4cb3de8281cf5b95d05b569a))
-- Replace feed.xml with jekyll-feed gem - ([7ad9d67](https://github.com/phonglam3103/phonglam3103.github.io/commit/7ad9d674b263531cb68670f482421ad017afab0f))
-- Refactor development tasks - ([8d90899](https://github.com/phonglam3103/phonglam3103.github.io/commit/8d908996a5ae03b33ca55c1ec8ad78ed06f7309e))
-- Add support for jekyll-pagination - ([92002a5](https://github.com/phonglam3103/phonglam3103.github.io/commit/92002a5b015f35c3ce9035995e2231b56e50b2a7))
-- Give theme a visual refresh - ([9f16a54](https://github.com/phonglam3103/phonglam3103.github.io/commit/9f16a548a470538f8d120cbeb2d5b42937171b25))
-- Incorporate site search into masthead (#1383) - ([7eb00bb](https://github.com/phonglam3103/phonglam3103.github.io/commit/7eb00bbd618a7517fd763ea470e1c9a58c6a280a))
-- Adding linkback functionality Author avatar & Name (#1386) - ([9ca5764](https://github.com/phonglam3103/phonglam3103.github.io/commit/9ca57649c1fcfb64f90729cdb42fba404e428309))
-
-### Fix
-
-- Use relative links for menu items when possible (#1783) (#1784) - ([f5c3398](https://github.com/phonglam3103/phonglam3103.github.io/commit/f5c33989c86c115d5173aad8cc4eadae5c415b22))
-
-### [fixed]
-
-- Aggressive box-shadow - ([3429b9d](https://github.com/phonglam3103/phonglam3103.github.io/commit/3429b9d4a00a49d3524c38d3da08a50feeca8159))
-- Too long shadow at bottom - ([6d4b52a](https://github.com/phonglam3103/phonglam3103.github.io/commit/6d4b52a8a33656463e308ba6f9dc6d14ba808a1b))
-
-### [modified]
-
-- Even better - ([33b570b](https://github.com/phonglam3103/phonglam3103.github.io/commit/33b570b150a2726fc9d64940402b509ec74dab3e))
-
-### Includes
-
-- Enhance Twitter share link (#538) - ([d4ee7ff](https://github.com/phonglam3103/phonglam3103.github.io/commit/d4ee7ff12d3744c696a978eb44229d7d5ecdc503))
-
-### V2
-
-- Introduce show_overlay_excerpt and document  (#1436) - ([7bf2b58](https://github.com/phonglam3103/phonglam3103.github.io/commit/7bf2b58ede5ea8c0464879b6598da0181e77ba63))
+- Revert some change
+ - ([676d9f1](https://github.com/phonglam3103/phonglam3103.github.io/commit/676d9f1854091613b78ffaebecb5761553334b7f))
 
 <!-- generated by git-cliff -->
