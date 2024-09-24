@@ -1,3 +1,10 @@
+name: Generate Changelog
+
+on:
+  push:    # This triggers the workflow on every push to the repository
+    branches:
+      - '**'  # This will trigger the workflow on every branch push
+
 jobs:
   changelog:
     name: Generate changelog
@@ -17,11 +24,10 @@ jobs:
           OUTPUT: CHANGELOG.md
           GITHUB_REPO: ${{ github.repository }}
 
-      - name: Commit
+      - name: Commit and push changes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          set +e
           git add CHANGELOG.md
           git commit -m "Update changelog"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git <branch>
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git ${{ github.ref_name }}
