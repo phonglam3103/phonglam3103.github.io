@@ -59,6 +59,8 @@ naver-site-verification to naver_site_verification - ([70bff53](https://github.c
 - Docs: Add dracula base16 syntax highlighting (#2438)
 
 Updates stylesheets doc by adding a section for [dracula theme](https://draculatheme.com/). - ([e00e24d](https://github.com/phonglam3103/phonglam3103.github.io/commit/e00e24dc9d79f3ac9b04f8074de6e49e0aada79e))
+- Docs: New CV update
+ - ([96d9d8d](https://github.com/phonglam3103/phonglam3103.github.io/commit/96d9d8d0c97dc197190777f658fe8b534e204c6f))
 
 ### ◀️ Revert
 
