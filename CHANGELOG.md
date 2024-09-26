@@ -61,6 +61,8 @@ naver-site-verification to naver_site_verification - ([70bff53](https://github.c
 Updates stylesheets doc by adding a section for [dracula theme](https://draculatheme.com/). - ([e00e24d](https://github.com/phonglam3103/phonglam3103.github.io/commit/e00e24dc9d79f3ac9b04f8074de6e49e0aada79e))
 - Docs: New CV update
  - ([96d9d8d](https://github.com/phonglam3103/phonglam3103.github.io/commit/96d9d8d0c97dc197190777f658fe8b534e204c6f))
+- Docs: News updated!
+ - ([4d9f868](https://github.com/phonglam3103/phonglam3103.github.io/commit/4d9f868d6dd60970a9794908e1c0ded58725f8db))
 
 ### ◀️ Revert
 
