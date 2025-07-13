@@ -8,7 +8,7 @@ permalink: /
 
 ### About Me
 
-I obtained my Master's degree in Pharmaceutical Science from the [Uppsala University, Sweden](https://uu.se) and my Pharmacist degree from Sch. My academic journey is fueled by a passion for leveraging computational methods to drive advancements in drug discovery.
+I obtained my Master's degree in Pharmaceutical Science from the [Uppsala University, Sweden](https://uu.se), which ranked 93th in the QS Ranking 2025. My academic journey is fueled by a passion for leveraging computational methods to drive advancements in drug discovery.
 
 In the fall of 2024, I am eager to embarking on my thesis project, focusing on applying machine learning with structure-based virtual screening, under the supervision of Professor Jens Carlsson and Dr. Israel Cabeza de Vaca at the Department of Cell and Molecular Biology, Uppsala University. You can learn more about the ongoing research in our group at [https://www.carlssonlab.org/](https://www.carlssonlab.org/). The abstract of my Master's thesis named "Synthon-based docking and machine learning to accelerate structure-based drug discovery in ultralarge libraries" is available on [DIVA](https://uu.diva-portal.org/smash/record.jsf?pid=diva2%3A1972053)
 
