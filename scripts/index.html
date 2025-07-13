@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phong Lam - Useful scripts</title>
+  <meta name="description" content="Phong Lam - Useful scripts">
+  <link rel="stylesheet" href="https://phonglam3103.github.io/css/main.css">
+  <link rel="canonical" href="https://phonglam3103.github.io/scripts/">
+<link rel="shortcut icon" type ="image/x-icon" href="https://phonglam3103.github.io/images/logopic/favicon.ico">
+<link rel="shortcut icon" href="/favicon.png">
+<script src="https://kit.fontawesome.com/abc7950959.js" crossorigin="anonymous"></script>
+  
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26505344-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span> 
+	  </button>
+		
+
+    <a class="navbar-brand" href="https://phonglam3103.github.io/">
+    	<img style="position:relative; top:-25px" src="/images/logopic/group_logo_medium.png" height="40" width="auto" class="d-inline-block align-left" alt=""> 
+    <a class="navbar-brand" href="https://phonglam3103.github.io/">
+			  Phong Lam
+    </a>
+  	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="https://phonglam3103.github.io/">Home</a></li>
+    <li><a href="https://phonglam3103.github.io/assets/PhongLam_CV.pdf" target="_blank">CV</a></li>
+    <li><a href="https://phonglam3103.github.io/research">Research</a></li>
+		<li><a href="https://phonglam3103.github.io/talks">Talks</a></li>
+		<li><a href="https://phonglam3103.github.io/publications">Publications</a></li>
+    <li><a href="https://phonglam3103.github.io/scripts">Useful scripts</a></li>
+    <li><a href="https://phonglam3103.github.io/blogs">Blogs</a></li>
+    <!--<li><a href="https://phonglam3103.github.io/teaching">Teaching</a></li>-->
+    <!--<li><a href="https://phonglam3103.github.io/supervision">Supervision</a></li>-->  
+		<!--<li><a href="https://phonglam3103.github.io/funding">Funding</a></li>-->
+		<!--- <li><a href="https://phonglam3103.github.io/pictures">(Pics)</a></li> --->
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="grid2id" class="col-sm-12">
+  <h1 id="scripts">Scripts</h1>
+
+<p>These are useful scripts I usually use in my research. Will try to update the list regularly.</p>
+
+<div class="row">
+  <div class="well">
+
+    <h4 id="chemical-standardization-visualization-and-iupac-readout">Chemical standardization, visualization, and IUPAC readout</h4>
+
+    <p><strong>Purpose:</strong> The script is used to standardize the structure into proper ones using the SMILES, then add a column of chemical representation in 2D format and IUPAD readout using a deep learning model. The script was gathered from different sources.</p>
+
+    <p><strong>Script:</strong> <a href="https://colab.research.google.com/github/phonglam3103/Cheminformatics/blob/main/Standardize_visualize_IUPAC.ipynb"> Google Colab</a></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="well">
+
+    <h4 id="roc-curve-and-enrichment-curve-plotting">ROC curve and enrichment curve plotting</h4>
+
+    <p><strong>Purpose:</strong> To evaluate the capability of a virtual screening method in enrichment actives among the pool of actives and inactives.</p>
+
+    <p><strong>Script:</strong> <a href="https://colab.research.google.com/github/phonglam3103/Cheminformatics/blob/main/Multiple_ROC_AUC_generalized.ipynb"> Google Colab</a></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="well">
+
+    <h4 id="autodock-vina-batch-screening-and-analysis">AutoDock Vina batch screening and analysis</h4>
+
+    <p><strong>Purpose:</strong> Automate the molecular docking process using AutoDock Vina. The script was written in Bash therefore natively compatible with Linux. For Windows, I recommend installing and setting up a path to cygwin64/bash.exe to implement the script.</p>
+
+    <p><strong>Scripts:</strong> <a href="https://github.com/phonglam3103/Cheminformatics/tree/main/Molecular%20docking%20scripts"> GitHub repository</a></p>
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="well">
+
+    <h4 id="gromacs-md-trajectory-analysis">GROMACS MD trajectory analysis</h4>
+
+    <p><strong>Purpose:</strong> I wrote this notebook to automate the visual analysis of MD trajectories from the GROMACS program. The script assumes that you put it in the parent folder in which the subfolders are different protein-ligand complexes that have undergone MD simulation and have generated the necessary .xvg files for visualization.</p>
+
+    <p><strong>Scripts:</strong> <a href="https://github.com/phonglam3103/Cheminformatics/blob/main/Visuallization%20notebooks/plot.ipynb"> GitHub repository</a></p>
+
+  </div>
+</div>
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+		  <p>&copy 2025  Phong Lam's Page. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="https://phonglam3103.github.io/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
+              <p>I am currently a Master's student of <a href="https://www.carlssonlab.org">Carlsson's Group</a> at <a href ="https://www.icm.uu.se/">Department of Cell and Molecular Biology</a>, <a href="https://www.uu.se">Uppsala University</a>.</p>
+            
+
+		   <p>  </p><p>
+            		  
+            
+		</div>
+    <div class="col-sm-4">
+    </div>    
+		<div class="col-sm-4">
+		  Contact:<br />
+      lamthuaphong@gmail.com<br />
+		  Uppsala Biomedicinska Centrum (BMC)<br />
+		  Husargatan 3, 751 05 Uppsala<br />
+		  Sweden <br />
+            
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://phonglam3103.github.io/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
